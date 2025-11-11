@@ -1,0 +1,52 @@
+interactions:
+- request:
+    body: null
+    headers:
+      Connection: [keep-alive]
+      Content-Length: ['0']
+      User-Agent: [Azure-Storage/1.4.0-2.0.0 (Python CPython 3.7.0; Darwin 18.5.0)]
+      x-ms-client-request-id: [4af0cb9e-71f3-11e9-b134-acde48001122]
+      x-ms-date: ['Thu, 09 May 2019 00:42:15 GMT']
+      x-ms-version: ['2018-11-09']
+    method: PUT
+    uri: https://storagename.blob.core.windows.net/utcontainer2dcc20b2?restype=container
+  response:
+    body: {string: ''}
+    headers:
+      Content-Length: ['0']
+      Date: ['Thu, 09 May 2019 00:42:15 GMT']
+      ETag: ['"0x8D6D4172F34B4D6"']
+      Last-Modified: ['Thu, 09 May 2019 00:42:16 GMT']
+      Server: [Windows-Azure-Blob/1.0 Microsoft-HTTPAPI/2.0]
+      x-ms-request-id: [6387d7db-101e-003a-3f00-068c88000000]
+      x-ms-version: ['2018-11-09']
+    status: {code: 201, message: Created}
+- request:
+    body: null
+    headers:
+      Connection: [keep-alive]
+      Content-Length: ['0']
+      If-Unmodified-Since: ['Thu, 09 May 2019 00:27:16 GMT']
+      User-Agent: [Azure-Storage/1.4.0-2.0.0 (Python CPython 3.7.0; Darwin 18.5.0)]
+      x-ms-client-request-id: [4b2ba28c-71f3-11e9-b134-acde48001122]
+      x-ms-date: ['Thu, 09 May 2019 00:42:16 GMT']
+      x-ms-lease-action: [acquire]
+      x-ms-lease-duration: ['-1']
+      x-ms-version: ['2018-11-09']
+    method: PUT
+    uri: https://storagename.blob.core.windows.net/utcontainer2dcc20b2?restype=container&comp=lease
+  response:
+    body: {string: "\uFEFF<?xml version=\"1.0\" encoding=\"utf-8\"?><Error><Code>ConditionNotMet</Code><Message>The\
+        \ condition specified using HTTP conditional header(s) is not met.\nRequestId:6387d85b-101e-003a-2000-068c88000000\n\
+        Time:2019-05-09T00:42:16.3626206Z</Message></Error>"}
+    headers:
+      Content-Length: ['252']
+      Content-Type: [application/xml]
+      Date: ['Thu, 09 May 2019 00:42:15 GMT']
+      Server: [Windows-Azure-Blob/1.0 Microsoft-HTTPAPI/2.0]
+      x-ms-error-code: [ConditionNotMet]
+      x-ms-request-id: [6387d85b-101e-003a-2000-068c88000000]
+      x-ms-version: ['2018-11-09']
+    status: {code: 412, message: The condition specified using HTTP conditional header(s)
+        is not met.}
+version: 1

@@ -1,0 +1,50 @@
+interactions:
+- request:
+    body: null
+    headers:
+      Connection: [keep-alive]
+      Content-Length: ['0']
+      User-Agent: [Azure-Storage/1.4.0-2.0.0 (Python CPython 3.7.0; Darwin 18.5.0)]
+      x-ms-client-request-id: [2a4f8628-71f3-11e9-b134-acde48001122]
+      x-ms-date: ['Thu, 09 May 2019 00:41:21 GMT']
+      x-ms-version: ['2018-11-09']
+    method: PUT
+    uri: https://storagename.blob.core.windows.net/utcontainer14d91cef?restype=container
+  response:
+    body: {string: ''}
+    headers:
+      Content-Length: ['0']
+      Date: ['Thu, 09 May 2019 00:41:21 GMT']
+      ETag: ['"0x8D6D4170F2DD2A6"']
+      Last-Modified: ['Thu, 09 May 2019 00:41:22 GMT']
+      Server: [Windows-Azure-Blob/1.0 Microsoft-HTTPAPI/2.0]
+      x-ms-request-id: [319bd768-401e-004f-65ff-050b33000000]
+      x-ms-version: ['2018-11-09']
+    status: {code: 201, message: Created}
+- request:
+    body: null
+    headers:
+      Connection: [keep-alive]
+      Content-Length: ['0']
+      If-Modified-Since: ['Thu, 09 May 2019 00:56:22 GMT']
+      User-Agent: [Azure-Storage/1.4.0-2.0.0 (Python CPython 3.7.0; Darwin 18.5.0)]
+      x-ms-client-request-id: [2aff8adc-71f3-11e9-b134-acde48001122]
+      x-ms-date: ['Thu, 09 May 2019 00:41:22 GMT']
+      x-ms-version: ['2018-11-09']
+    method: DELETE
+    uri: https://storagename.blob.core.windows.net/utcontainer14d91cef?restype=container
+  response:
+    body: {string: "\uFEFF<?xml version=\"1.0\" encoding=\"utf-8\"?><Error><Code>ConditionNotMet</Code><Message>The\
+        \ condition specified using HTTP conditional header(s) is not met.\nRequestId:319bd787-401e-004f-80ff-050b33000000\n\
+        Time:2019-05-09T00:41:22.3911876Z</Message></Error>"}
+    headers:
+      Content-Length: ['252']
+      Content-Type: [application/xml]
+      Date: ['Thu, 09 May 2019 00:41:21 GMT']
+      Server: [Windows-Azure-Blob/1.0 Microsoft-HTTPAPI/2.0]
+      x-ms-error-code: [ConditionNotMet]
+      x-ms-request-id: [319bd787-401e-004f-80ff-050b33000000]
+      x-ms-version: ['2018-11-09']
+    status: {code: 412, message: The condition specified using HTTP conditional header(s)
+        is not met.}
+version: 1

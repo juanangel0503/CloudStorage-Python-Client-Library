@@ -1,0 +1,74 @@
+interactions:
+- request:
+    body: null
+    headers:
+      Connection: [keep-alive]
+      Content-Length: ['0']
+      User-Agent: [Azure-Storage/1.4.0-2.0.0 (Python CPython 3.7.0; Darwin 18.5.0)]
+      x-ms-client-request-id: [99bd0ca4-71fa-11e9-aabd-acde48001122]
+      x-ms-date: ['Thu, 09 May 2019 01:34:34 GMT']
+      x-ms-version: ['2018-11-09']
+    method: PUT
+    uri: https://storagename.file.core.windows.net/share11320ede?restype=share
+  response:
+    body: {string: ''}
+    headers:
+      Content-Length: ['0']
+      Date: ['Thu, 09 May 2019 01:34:34 GMT']
+      ETag: ['"0x8D6D41E7E0082C1"']
+      Last-Modified: ['Thu, 09 May 2019 01:34:34 GMT']
+      Server: [Windows-Azure-File/1.0 Microsoft-HTTPAPI/2.0]
+      x-ms-request-id: [1bc8a52a-301a-002d-0107-064ceb000000]
+      x-ms-version: ['2018-11-09']
+    status: {code: 201, message: Created}
+- request:
+    body: null
+    headers:
+      Connection: [keep-alive]
+      Content-Length: ['0']
+      User-Agent: [Azure-Storage/1.4.0-2.0.0 (Python CPython 3.7.0; Darwin 18.5.0)]
+      x-ms-client-request-id: [99cff8be-71fa-11e9-aabd-acde48001122]
+      x-ms-date: ['Thu, 09 May 2019 01:34:34 GMT']
+      x-ms-meta-hello: [world]
+      x-ms-meta-number: ['42']
+      x-ms-version: ['2018-11-09']
+    method: PUT
+    uri: https://storagename.file.core.windows.net/share11320ede?restype=share&comp=metadata
+  response:
+    body: {string: ''}
+    headers:
+      Content-Length: ['0']
+      Date: ['Thu, 09 May 2019 01:34:35 GMT']
+      ETag: ['"0x8D6D41E7E9C1FA6"']
+      Last-Modified: ['Thu, 09 May 2019 01:34:35 GMT']
+      Server: [Windows-Azure-File/1.0 Microsoft-HTTPAPI/2.0]
+      x-ms-request-id: [1bc8a52c-301a-002d-0207-064ceb000000]
+      x-ms-version: ['2018-11-09']
+    status: {code: 200, message: OK}
+- request:
+    body: null
+    headers:
+      Connection: [keep-alive]
+      User-Agent: [Azure-Storage/1.4.0-2.0.0 (Python CPython 3.7.0; Darwin 18.5.0)]
+      x-ms-client-request-id: [9a793492-71fa-11e9-aabd-acde48001122]
+      x-ms-date: ['Thu, 09 May 2019 01:34:35 GMT']
+      x-ms-version: ['2018-11-09']
+    method: GET
+    uri: https://storagename.file.core.windows.net/share11320ede?restype=share
+  response:
+    body: {string: ''}
+    headers:
+      Content-Length: ['0']
+      Date: ['Thu, 09 May 2019 01:34:35 GMT']
+      ETag: ['"0x8D6D41E7E9C1FA6"']
+      Last-Modified: ['Thu, 09 May 2019 01:34:35 GMT']
+      Server: [Windows-Azure-File/1.0 Microsoft-HTTPAPI/2.0]
+      x-ms-has-immutability-policy: ['false']
+      x-ms-has-legal-hold: ['false']
+      x-ms-meta-hello: [world]
+      x-ms-meta-number: ['42']
+      x-ms-request-id: [1bc8a530-301a-002d-0407-064ceb000000]
+      x-ms-share-quota: ['5120']
+      x-ms-version: ['2018-11-09']
+    status: {code: 200, message: OK}
+version: 1

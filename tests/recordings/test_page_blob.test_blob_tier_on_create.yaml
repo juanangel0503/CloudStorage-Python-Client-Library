@@ -1,0 +1,403 @@
+interactions:
+- request:
+    body: null
+    headers:
+      Connection: [keep-alive]
+      Content-Length: ['0']
+      User-Agent: [Azure-Storage/1.4.0-2.0.0 (Python CPython 3.7.0; Darwin 18.5.0)]
+      x-ms-client-request-id: [aa2b1be4-71f5-11e9-b134-acde48001122]
+      x-ms-date: ['Thu, 09 May 2019 00:59:14 GMT']
+      x-ms-version: ['2018-11-09']
+    method: PUT
+    uri: https://premiumstoragename.blob.core.windows.net/utpremiumcontainer3bb30fc9?restype=container
+  response:
+    body: {string: ''}
+    headers:
+      Content-Length: ['0']
+      Date: ['Thu, 09 May 2019 00:59:14 GMT']
+      ETag: ['"0x8D6D4198E6DDCA2"']
+      Last-Modified: ['Thu, 09 May 2019 00:59:14 GMT']
+      Server: [Windows-Azure-Blob/1.0 Microsoft-HTTPAPI/2.0]
+      x-ms-request-id: [43576016-c01c-0027-6a02-06dd79000000]
+      x-ms-version: ['2018-11-09']
+    status: {code: 201, message: Created}
+- request:
+    body: null
+    headers:
+      Connection: [keep-alive]
+      Content-Length: ['0']
+      User-Agent: [Azure-Storage/1.4.0-2.0.0 (Python CPython 3.7.0; Darwin 18.5.0)]
+      x-ms-access-tier: [P4]
+      x-ms-blob-content-length: ['1024']
+      x-ms-blob-type: [PageBlob]
+      x-ms-client-request-id: [aa3d4c10-71f5-11e9-b134-acde48001122]
+      x-ms-date: ['Thu, 09 May 2019 00:59:14 GMT']
+      x-ms-version: ['2018-11-09']
+    method: PUT
+    uri: https://premiumstoragename.blob.core.windows.net/utpremiumcontainer3bb30fc9/blob3bb30fc9
+  response:
+    body: {string: ''}
+    headers:
+      Content-Length: ['0']
+      Date: ['Thu, 09 May 2019 00:59:14 GMT']
+      ETag: ['"0x8D6D4198E7368F0"']
+      Last-Modified: ['Thu, 09 May 2019 00:59:14 GMT']
+      Server: [Windows-Azure-Blob/1.0 Microsoft-HTTPAPI/2.0]
+      x-ms-request-id: [4357602e-c01c-0027-0202-06dd79000000]
+      x-ms-request-server-encrypted: ['true']
+      x-ms-version: ['2018-11-09']
+    status: {code: 201, message: Created}
+- request:
+    body: null
+    headers:
+      Connection: [keep-alive]
+      User-Agent: [Azure-Storage/1.4.0-2.0.0 (Python CPython 3.7.0; Darwin 18.5.0)]
+      x-ms-client-request-id: [aa42a1b0-71f5-11e9-b134-acde48001122]
+      x-ms-date: ['Thu, 09 May 2019 00:59:14 GMT']
+      x-ms-version: ['2018-11-09']
+    method: HEAD
+    uri: https://premiumstoragename.blob.core.windows.net/utpremiumcontainer3bb30fc9/blob3bb30fc9
+  response:
+    body: {string: ''}
+    headers:
+      Accept-Ranges: [bytes]
+      Content-Length: ['1024']
+      Content-Type: [application/octet-stream]
+      Date: ['Thu, 09 May 2019 00:59:14 GMT']
+      ETag: ['"0x8D6D4198E7368F0"']
+      Last-Modified: ['Thu, 09 May 2019 00:59:14 GMT']
+      Server: [Windows-Azure-Blob/1.0 Microsoft-HTTPAPI/2.0]
+      x-ms-access-tier: [P4]
+      x-ms-blob-sequence-number: ['0']
+      x-ms-blob-type: [PageBlob]
+      x-ms-creation-time: ['Thu, 09 May 2019 00:59:14 GMT']
+      x-ms-lease-state: [available]
+      x-ms-lease-status: [unlocked]
+      x-ms-request-id: [4357604d-c01c-0027-2102-06dd79000000]
+      x-ms-server-encrypted: ['true']
+      x-ms-version: ['2018-11-09']
+    status: {code: 200, message: OK}
+- request:
+    body: null
+    headers:
+      Connection: [keep-alive]
+      Content-Length: ['0']
+      User-Agent: [Azure-Storage/1.4.0-2.0.0 (Python CPython 3.7.0; Darwin 18.5.0)]
+      x-ms-access-tier: [P6]
+      x-ms-blob-content-length: ['1024']
+      x-ms-blob-type: [PageBlob]
+      x-ms-client-request-id: [aa47e530-71f5-11e9-b134-acde48001122]
+      x-ms-date: ['Thu, 09 May 2019 00:59:14 GMT']
+      x-ms-version: ['2018-11-09']
+    method: PUT
+    uri: https://premiumstoragename.blob.core.windows.net/utpremiumcontainer3bb30fc9/blob3bb30fc9
+  response:
+    body: {string: ''}
+    headers:
+      Content-Length: ['0']
+      Date: ['Thu, 09 May 2019 00:59:14 GMT']
+      ETag: ['"0x8D6D4198E7DF23D"']
+      Last-Modified: ['Thu, 09 May 2019 00:59:14 GMT']
+      Server: [Windows-Azure-Blob/1.0 Microsoft-HTTPAPI/2.0]
+      x-ms-request-id: [4357606e-c01c-0027-4202-06dd79000000]
+      x-ms-request-server-encrypted: ['true']
+      x-ms-version: ['2018-11-09']
+    status: {code: 201, message: Created}
+- request:
+    body: !!binary |
+      Wr31EpVernbgoB1XMefCzBzHAQ553khVA2AlReDaD0MWZ0o6l14B/jE79ZtS61EEfH8xmLKUx167
+      HutZfK8H9C4qvGFayQ4YxsE+mhwf0G2zg3/wOrJvr0H9ghfSStiO0Wq5b/OptTWXBrpNpXzHji+J
+      hlUVlvugxzif1Ap6gonVruBxGyEFCphRpWX5r5N/3wHOdCM8UZ9hMzp8HWea/ABDNEE9qzjYnfD5
+      KMLjseVyFzKBnF7J1KwfLdHdyQpPVLWGoy5h7KPFmnSplE1ycMEhk+sGf1qk/MQquuuoUNL0RBeq
+      wAmGZUauzPzNJRHSpKnJOpC/W6v19pgxp1SeJoFUtaSMDCr7MzybhOASOvO9ofrDlhTxOiXNIXfy
+      24YUVnXHQ8Zs0+UQ9JnModEjeoD5k8TntPbjJ2R08Bh5PEj8ofbz+Y1gJXJyg0Sf7o5WyLif8dQl
+      6BURMGMZKFUMYMdqDKlJkHE2oYg3+VCq5O9vT8wX+Jb9tUFpdES8AaNRgkGA8Cw+P0lay1ThJVg+
+      4oi870ieDwS+BGgO3XY8S8SBDIvnq/T8C4+ZOE3iGW+lgMOvQh/o8DTio3HUAdrIvvPdBDLownJh
+      fjhQaHl2UeHukk6Yr5Ani4BU56CS+HCQz42tEAK/DSLkVx3MQd5D4CSqKgmQ1w7Is4v5F2sLn6Fz
+      xwoGdr3aWytGgL4c0eBI/cCf+12PMbKSUaM/F19fJ55mldYDQkMmPE67b8SIR537mvmtM9Yr8ay5
+      73cUb3pxtgJP7ICY85Drm1y+MK9R7i0pRaLm8uR0IECHS8kRX4mgkZp2JQijHw6ZGoe/csZMz20B
+      tErycio//Fd7KtET887l8EzeyQEryUli52S7ZnMKlIhtjEIG0PAIng3ddBo+a2WK78BcsgR1myXr
+      qctLvg2MQlap4ECRMyNpiYA1Wv1P4txvxIvW4JPsZFEcTLGYjZoZb37XfjJSITtTemm4Sau49dvR
+      SPQDmP1hJV/NOEakiHQx8Ujz2soQ11noXZieSnbY1+sUfOiIVUOFUWs0UkocVOPfvyjUCcUxYF5t
+      7FlFAWRfgqvEvsHvPCcJZTNXEIk6c4nAOX8abbyjozZ5H2teoXnGtJlX9Iw0nBeJ0fbX3uxdx+AA
+      WNfHuRjIFcPTpO1zjUNWw+XqHAGAKNdPaDCfTKj0d08bVNgzIM5kl6v22VcwANt2CPWUOITPuz4h
+      MRIhNqNmlw/0UcrO3jtEP5wPYa3+K70LFl9YCmYh6TSCoPzeg4EwMKqlUgxywqqYdjlD74KrvUf3
+      3+pFECdVNDG6Lp1lDvaxYCisnIP3dyEYddxB2DRKuGDgk91QBw3jFEcoHzzTN9cyAqojaod2xg==
+    headers:
+      Connection: [keep-alive]
+      Content-Length: ['1024']
+      User-Agent: [Azure-Storage/1.4.0-2.0.0 (Python CPython 3.7.0; Darwin 18.5.0)]
+      x-ms-client-request-id: [aa4d8e22-71f5-11e9-b134-acde48001122]
+      x-ms-date: ['Thu, 09 May 2019 00:59:14 GMT']
+      x-ms-page-write: [update]
+      x-ms-range: [bytes=0-1023]
+      x-ms-version: ['2018-11-09']
+    method: PUT
+    uri: https://premiumstoragename.blob.core.windows.net/utpremiumcontainer3bb30fc9/blob3bb30fc9?comp=page
+  response:
+    body: {string: ''}
+    headers:
+      Content-Length: ['0']
+      Content-MD5: [dHsrBWFyuefp76rhg/7BOA==]
+      Date: ['Thu, 09 May 2019 00:59:14 GMT']
+      ETag: ['"0x8D6D4198E83BFB2"']
+      Last-Modified: ['Thu, 09 May 2019 00:59:14 GMT']
+      Server: [Windows-Azure-Blob/1.0 Microsoft-HTTPAPI/2.0]
+      x-ms-blob-sequence-number: ['0']
+      x-ms-request-id: [43576091-c01c-0027-6502-06dd79000000]
+      x-ms-request-server-encrypted: ['true']
+      x-ms-version: ['2018-11-09']
+    status: {code: 201, message: Created}
+- request:
+    body: null
+    headers:
+      Connection: [keep-alive]
+      User-Agent: [Azure-Storage/1.4.0-2.0.0 (Python CPython 3.7.0; Darwin 18.5.0)]
+      x-ms-client-request-id: [aa52d7a6-71f5-11e9-b134-acde48001122]
+      x-ms-date: ['Thu, 09 May 2019 00:59:14 GMT']
+      x-ms-version: ['2018-11-09']
+    method: HEAD
+    uri: https://premiumstoragename.blob.core.windows.net/utpremiumcontainer3bb30fc9/blob3bb30fc9
+  response:
+    body: {string: ''}
+    headers:
+      Accept-Ranges: [bytes]
+      Content-Length: ['1024']
+      Content-Type: [application/octet-stream]
+      Date: ['Thu, 09 May 2019 00:59:14 GMT']
+      ETag: ['"0x8D6D4198E83BFB2"']
+      Last-Modified: ['Thu, 09 May 2019 00:59:14 GMT']
+      Server: [Windows-Azure-Blob/1.0 Microsoft-HTTPAPI/2.0]
+      x-ms-access-tier: [P6]
+      x-ms-blob-sequence-number: ['0']
+      x-ms-blob-type: [PageBlob]
+      x-ms-creation-time: ['Thu, 09 May 2019 00:59:14 GMT']
+      x-ms-lease-state: [available]
+      x-ms-lease-status: [unlocked]
+      x-ms-request-id: [435760ba-c01c-0027-0e02-06dd79000000]
+      x-ms-server-encrypted: ['true']
+      x-ms-version: ['2018-11-09']
+    status: {code: 200, message: OK}
+- request:
+    body: null
+    headers:
+      Connection: [keep-alive]
+      Content-Length: ['0']
+      User-Agent: [Azure-Storage/1.4.0-2.0.0 (Python CPython 3.7.0; Darwin 18.5.0)]
+      x-ms-access-tier: [P10]
+      x-ms-blob-content-length: ['1024']
+      x-ms-blob-type: [PageBlob]
+      x-ms-client-request-id: [aa57f768-71f5-11e9-b134-acde48001122]
+      x-ms-date: ['Thu, 09 May 2019 00:59:15 GMT']
+      x-ms-version: ['2018-11-09']
+    method: PUT
+    uri: https://premiumstoragename.blob.core.windows.net/utpremiumcontainer3bb30fc9/blob3bb30fc9
+  response:
+    body: {string: ''}
+    headers:
+      Content-Length: ['0']
+      Date: ['Thu, 09 May 2019 00:59:14 GMT']
+      ETag: ['"0x8D6D4198E8DFACB"']
+      Last-Modified: ['Thu, 09 May 2019 00:59:15 GMT']
+      Server: [Windows-Azure-Blob/1.0 Microsoft-HTTPAPI/2.0]
+      x-ms-request-id: [435760e0-c01c-0027-3402-06dd79000000]
+      x-ms-request-server-encrypted: ['true']
+      x-ms-version: ['2018-11-09']
+    status: {code: 201, message: Created}
+- request:
+    body: !!binary |
+      Wr31EpVernbgoB1XMefCzBzHAQ553khVA2AlReDaD0MWZ0o6l14B/jE79ZtS61EEfH8xmLKUx167
+      HutZfK8H9C4qvGFayQ4YxsE+mhwf0G2zg3/wOrJvr0H9ghfSStiO0Wq5b/OptTWXBrpNpXzHji+J
+      hlUVlvugxzif1Ap6gonVruBxGyEFCphRpWX5r5N/3wHOdCM8UZ9hMzp8HWea/ABDNEE9qzjYnfD5
+      KMLjseVyFzKBnF7J1KwfLdHdyQpPVLWGoy5h7KPFmnSplE1ycMEhk+sGf1qk/MQquuuoUNL0RBeq
+      wAmGZUauzPzNJRHSpKnJOpC/W6v19pgxp1SeJoFUtaSMDCr7MzybhOASOvO9ofrDlhTxOiXNIXfy
+      24YUVnXHQ8Zs0+UQ9JnModEjeoD5k8TntPbjJ2R08Bh5PEj8ofbz+Y1gJXJyg0Sf7o5WyLif8dQl
+      6BURMGMZKFUMYMdqDKlJkHE2oYg3+VCq5O9vT8wX+Jb9tUFpdES8AaNRgkGA8Cw+P0lay1ThJVg+
+      4oi870ieDwS+BGgO3XY8S8SBDIvnq/T8C4+ZOE3iGW+lgMOvQh/o8DTio3HUAdrIvvPdBDLownJh
+      fjhQaHl2UeHukk6Yr5Ani4BU56CS+HCQz42tEAK/DSLkVx3MQd5D4CSqKgmQ1w7Is4v5F2sLn6Fz
+      xwoGdr3aWytGgL4c0eBI/cCf+12PMbKSUaM/F19fJ55mldYDQkMmPE67b8SIR537mvmtM9Yr8ay5
+      73cUb3pxtgJP7ICY85Drm1y+MK9R7i0pRaLm8uR0IECHS8kRX4mgkZp2JQijHw6ZGoe/csZMz20B
+      tErycio//Fd7KtET887l8EzeyQEryUli52S7ZnMKlIhtjEIG0PAIng3ddBo+a2WK78BcsgR1myXr
+      qctLvg2MQlap4ECRMyNpiYA1Wv1P4txvxIvW4JPsZFEcTLGYjZoZb37XfjJSITtTemm4Sau49dvR
+      SPQDmP1hJV/NOEakiHQx8Ujz2soQ11noXZieSnbY1+sUfOiIVUOFUWs0UkocVOPfvyjUCcUxYF5t
+      7FlFAWRfgqvEvsHvPCcJZTNXEIk6c4nAOX8abbyjozZ5H2teoXnGtJlX9Iw0nBeJ0fbX3uxdx+AA
+      WNfHuRjIFcPTpO1zjUNWw+XqHAGAKNdPaDCfTKj0d08bVNgzIM5kl6v22VcwANt2CPWUOITPuz4h
+      MRIhNqNmlw/0UcrO3jtEP5wPYa3+K70LFl9YCmYh6TSCoPzeg4EwMKqlUgxywqqYdjlD74KrvUf3
+      3+pFECdVNDG6Lp1lDvaxYCisnIP3dyEYddxB2DRKuGDgk91QBw3jFEcoHzzTN9cyAqojaod2xg==
+    headers:
+      Connection: [keep-alive]
+      Content-Length: ['1024']
+      User-Agent: [Azure-Storage/1.4.0-2.0.0 (Python CPython 3.7.0; Darwin 18.5.0)]
+      x-ms-client-request-id: [aa5dc620-71f5-11e9-b134-acde48001122]
+      x-ms-date: ['Thu, 09 May 2019 00:59:15 GMT']
+      x-ms-page-write: [update]
+      x-ms-range: [bytes=0-1023]
+      x-ms-version: ['2018-11-09']
+    method: PUT
+    uri: https://premiumstoragename.blob.core.windows.net/utpremiumcontainer3bb30fc9/blob3bb30fc9?comp=page
+  response:
+    body: {string: ''}
+    headers:
+      Content-Length: ['0']
+      Content-MD5: [dHsrBWFyuefp76rhg/7BOA==]
+      Date: ['Thu, 09 May 2019 00:59:14 GMT']
+      ETag: ['"0x8D6D4198E93C83B"']
+      Last-Modified: ['Thu, 09 May 2019 00:59:15 GMT']
+      Server: [Windows-Azure-Blob/1.0 Microsoft-HTTPAPI/2.0]
+      x-ms-blob-sequence-number: ['0']
+      x-ms-request-id: [43576106-c01c-0027-5a02-06dd79000000]
+      x-ms-request-server-encrypted: ['true']
+      x-ms-version: ['2018-11-09']
+    status: {code: 201, message: Created}
+- request:
+    body: null
+    headers:
+      Connection: [keep-alive]
+      User-Agent: [Azure-Storage/1.4.0-2.0.0 (Python CPython 3.7.0; Darwin 18.5.0)]
+      x-ms-client-request-id: [aa62c6a2-71f5-11e9-b134-acde48001122]
+      x-ms-date: ['Thu, 09 May 2019 00:59:15 GMT']
+      x-ms-version: ['2018-11-09']
+    method: HEAD
+    uri: https://premiumstoragename.blob.core.windows.net/utpremiumcontainer3bb30fc9/blob3bb30fc9
+  response:
+    body: {string: ''}
+    headers:
+      Accept-Ranges: [bytes]
+      Content-Length: ['1024']
+      Content-Type: [application/octet-stream]
+      Date: ['Thu, 09 May 2019 00:59:14 GMT']
+      ETag: ['"0x8D6D4198E93C83B"']
+      Last-Modified: ['Thu, 09 May 2019 00:59:15 GMT']
+      Server: [Windows-Azure-Blob/1.0 Microsoft-HTTPAPI/2.0]
+      x-ms-access-tier: [P10]
+      x-ms-blob-sequence-number: ['0']
+      x-ms-blob-type: [PageBlob]
+      x-ms-creation-time: ['Thu, 09 May 2019 00:59:15 GMT']
+      x-ms-lease-state: [available]
+      x-ms-lease-status: [unlocked]
+      x-ms-request-id: [43576117-c01c-0027-6b02-06dd79000000]
+      x-ms-server-encrypted: ['true']
+      x-ms-version: ['2018-11-09']
+    status: {code: 200, message: OK}
+- request:
+    body: null
+    headers:
+      Connection: [keep-alive]
+      Content-Length: ['0']
+      User-Agent: [Azure-Storage/1.4.0-2.0.0 (Python CPython 3.7.0; Darwin 18.5.0)]
+      x-ms-access-tier: [P20]
+      x-ms-blob-content-length: ['1024']
+      x-ms-blob-type: [PageBlob]
+      x-ms-client-request-id: [aa67ad20-71f5-11e9-b134-acde48001122]
+      x-ms-date: ['Thu, 09 May 2019 00:59:15 GMT']
+      x-ms-version: ['2018-11-09']
+    method: PUT
+    uri: https://premiumstoragename.blob.core.windows.net/utpremiumcontainer3bb30fc9/blob3bb30fc9
+  response:
+    body: {string: ''}
+    headers:
+      Content-Length: ['0']
+      Date: ['Thu, 09 May 2019 00:59:14 GMT']
+      ETag: ['"0x8D6D4198E9DB52B"']
+      Last-Modified: ['Thu, 09 May 2019 00:59:15 GMT']
+      Server: [Windows-Azure-Blob/1.0 Microsoft-HTTPAPI/2.0]
+      x-ms-request-id: [4357613a-c01c-0027-0e02-06dd79000000]
+      x-ms-request-server-encrypted: ['true']
+      x-ms-version: ['2018-11-09']
+    status: {code: 201, message: Created}
+- request:
+    body: !!binary |
+      Wr31EpVernbgoB1XMefCzBzHAQ553khVA2AlReDaD0MWZ0o6l14B/jE79ZtS61EEfH8xmLKUx167
+      HutZfK8H9C4qvGFayQ4YxsE+mhwf0G2zg3/wOrJvr0H9ghfSStiO0Wq5b/OptTWXBrpNpXzHji+J
+      hlUVlvugxzif1Ap6gonVruBxGyEFCphRpWX5r5N/3wHOdCM8UZ9hMzp8HWea/ABDNEE9qzjYnfD5
+      KMLjseVyFzKBnF7J1KwfLdHdyQpPVLWGoy5h7KPFmnSplE1ycMEhk+sGf1qk/MQquuuoUNL0RBeq
+      wAmGZUauzPzNJRHSpKnJOpC/W6v19pgxp1SeJoFUtaSMDCr7MzybhOASOvO9ofrDlhTxOiXNIXfy
+      24YUVnXHQ8Zs0+UQ9JnModEjeoD5k8TntPbjJ2R08Bh5PEj8ofbz+Y1gJXJyg0Sf7o5WyLif8dQl
+      6BURMGMZKFUMYMdqDKlJkHE2oYg3+VCq5O9vT8wX+Jb9tUFpdES8AaNRgkGA8Cw+P0lay1ThJVg+
+      4oi870ieDwS+BGgO3XY8S8SBDIvnq/T8C4+ZOE3iGW+lgMOvQh/o8DTio3HUAdrIvvPdBDLownJh
+      fjhQaHl2UeHukk6Yr5Ani4BU56CS+HCQz42tEAK/DSLkVx3MQd5D4CSqKgmQ1w7Is4v5F2sLn6Fz
+      xwoGdr3aWytGgL4c0eBI/cCf+12PMbKSUaM/F19fJ55mldYDQkMmPE67b8SIR537mvmtM9Yr8ay5
+      73cUb3pxtgJP7ICY85Drm1y+MK9R7i0pRaLm8uR0IECHS8kRX4mgkZp2JQijHw6ZGoe/csZMz20B
+      tErycio//Fd7KtET887l8EzeyQEryUli52S7ZnMKlIhtjEIG0PAIng3ddBo+a2WK78BcsgR1myXr
+      qctLvg2MQlap4ECRMyNpiYA1Wv1P4txvxIvW4JPsZFEcTLGYjZoZb37XfjJSITtTemm4Sau49dvR
+      SPQDmP1hJV/NOEakiHQx8Ujz2soQ11noXZieSnbY1+sUfOiIVUOFUWs0UkocVOPfvyjUCcUxYF5t
+      7FlFAWRfgqvEvsHvPCcJZTNXEIk6c4nAOX8abbyjozZ5H2teoXnGtJlX9Iw0nBeJ0fbX3uxdx+AA
+      WNfHuRjIFcPTpO1zjUNWw+XqHAGAKNdPaDCfTKj0d08bVNgzIM5kl6v22VcwANt2CPWUOITPuz4h
+      MRIhNqNmlw/0UcrO3jtEP5wPYa3+K70LFl9YCmYh6TSCoPzeg4EwMKqlUgxywqqYdjlD74KrvUf3
+      3+pFECdVNDG6Lp1lDvaxYCisnIP3dyEYddxB2DRKuGDgk91QBw3jFEcoHzzTN9cyAqojaod2xg==
+    headers:
+      Connection: [keep-alive]
+      Content-Length: ['1024']
+      User-Agent: [Azure-Storage/1.4.0-2.0.0 (Python CPython 3.7.0; Darwin 18.5.0)]
+      x-ms-client-request-id: [aa6cf4c4-71f5-11e9-b134-acde48001122]
+      x-ms-date: ['Thu, 09 May 2019 00:59:15 GMT']
+      x-ms-page-write: [update]
+      x-ms-range: [bytes=0-1023]
+      x-ms-version: ['2018-11-09']
+    method: PUT
+    uri: https://premiumstoragename.blob.core.windows.net/utpremiumcontainer3bb30fc9/blob3bb30fc9?comp=page
+  response:
+    body: {string: ''}
+    headers:
+      Content-Length: ['0']
+      Content-MD5: [dHsrBWFyuefp76rhg/7BOA==]
+      Date: ['Thu, 09 May 2019 00:59:14 GMT']
+      ETag: ['"0x8D6D4198EA2E63E"']
+      Last-Modified: ['Thu, 09 May 2019 00:59:15 GMT']
+      Server: [Windows-Azure-Blob/1.0 Microsoft-HTTPAPI/2.0]
+      x-ms-blob-sequence-number: ['0']
+      x-ms-request-id: [43576157-c01c-0027-2b02-06dd79000000]
+      x-ms-request-server-encrypted: ['true']
+      x-ms-version: ['2018-11-09']
+    status: {code: 201, message: Created}
+- request:
+    body: null
+    headers:
+      Connection: [keep-alive]
+      User-Agent: [Azure-Storage/1.4.0-2.0.0 (Python CPython 3.7.0; Darwin 18.5.0)]
+      x-ms-client-request-id: [aa71da70-71f5-11e9-b134-acde48001122]
+      x-ms-date: ['Thu, 09 May 2019 00:59:15 GMT']
+      x-ms-version: ['2018-11-09']
+    method: HEAD
+    uri: https://premiumstoragename.blob.core.windows.net/utpremiumcontainer3bb30fc9/blob3bb30fc9
+  response:
+    body: {string: ''}
+    headers:
+      Accept-Ranges: [bytes]
+      Content-Length: ['1024']
+      Content-Type: [application/octet-stream]
+      Date: ['Thu, 09 May 2019 00:59:14 GMT']
+      ETag: ['"0x8D6D4198EA2E63E"']
+      Last-Modified: ['Thu, 09 May 2019 00:59:15 GMT']
+      Server: [Windows-Azure-Blob/1.0 Microsoft-HTTPAPI/2.0]
+      x-ms-access-tier: [P20]
+      x-ms-blob-sequence-number: ['0']
+      x-ms-blob-type: [PageBlob]
+      x-ms-creation-time: ['Thu, 09 May 2019 00:59:15 GMT']
+      x-ms-lease-state: [available]
+      x-ms-lease-status: [unlocked]
+      x-ms-request-id: [43576172-c01c-0027-4602-06dd79000000]
+      x-ms-server-encrypted: ['true']
+      x-ms-version: ['2018-11-09']
+    status: {code: 200, message: OK}
+- request:
+    body: null
+    headers:
+      Connection: [keep-alive]
+      Content-Length: ['0']
+      User-Agent: [Azure-Storage/1.4.0-2.0.0 (Python CPython 3.7.0; Darwin 18.5.0)]
+      x-ms-client-request-id: [aa76de1c-71f5-11e9-b134-acde48001122]
+      x-ms-date: ['Thu, 09 May 2019 00:59:15 GMT']
+      x-ms-version: ['2018-11-09']
+    method: DELETE
+    uri: https://premiumstoragename.blob.core.windows.net/utpremiumcontainer3bb30fc9?restype=container
+  response:
+    body: {string: ''}
+    headers:
+      Content-Length: ['0']
+      Date: ['Thu, 09 May 2019 00:59:14 GMT']
+      Server: [Windows-Azure-Blob/1.0 Microsoft-HTTPAPI/2.0]
+      x-ms-request-id: [4357618b-c01c-0027-5e02-06dd79000000]
+      x-ms-version: ['2018-11-09']
+    status: {code: 202, message: Accepted}
+version: 1

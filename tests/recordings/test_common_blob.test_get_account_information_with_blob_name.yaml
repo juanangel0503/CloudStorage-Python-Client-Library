@@ -1,0 +1,24 @@
+interactions:
+- request:
+    body: null
+    headers:
+      Connection: [keep-alive]
+      User-Agent: [Azure-Storage/1.4.0-2.0.0 (Python CPython 3.7.0; Darwin 18.5.0)]
+      x-ms-client-request-id: [c0f04f30-71f4-11e9-b134-acde48001122]
+      x-ms-date: ['Thu, 09 May 2019 00:52:43 GMT']
+      x-ms-version: ['2018-11-09']
+    method: HEAD
+    uri: https://storagename.blob.core.windows.net/missing/missing?restype=account&comp=properties
+  response:
+    body: {string: ''}
+    headers:
+      Content-Length: ['0']
+      Date: ['Thu, 09 May 2019 00:52:42 GMT']
+      Server: [Windows-Azure-Blob/1.0 Microsoft-HTTPAPI/2.0]
+      Vary: [Origin]
+      x-ms-account-kind: [StorageV2]
+      x-ms-request-id: [f131dc81-d01e-000e-2701-062320000000]
+      x-ms-sku-name: [Standard_RAGRS]
+      x-ms-version: ['2018-11-09']
+    status: {code: 200, message: OK}
+version: 1

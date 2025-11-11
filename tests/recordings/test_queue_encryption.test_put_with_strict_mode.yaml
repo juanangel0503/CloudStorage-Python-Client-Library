@@ -1,0 +1,52 @@
+interactions:
+- request:
+    body: null
+    headers:
+      Connection: [keep-alive]
+      Content-Length: ['0']
+      User-Agent: [Azure-Storage/1.4.0-2.0.0 (Python CPython 3.7.0; Darwin 18.5.0)]
+      x-ms-client-request-id: [c8eb8336-71f8-11e9-a804-acde48001122]
+      x-ms-date: ['Thu, 09 May 2019 01:21:34 GMT']
+      x-ms-version: ['2018-03-28']
+    method: PUT
+    uri: https://storagename.queue.core.windows.net/encryptionqueued9c213ac
+  response:
+    body: {string: ''}
+    headers:
+      Content-Length: ['0']
+      Date: ['Thu, 09 May 2019 01:21:34 GMT']
+      Server: [Windows-Azure-Queue/1.0 Microsoft-HTTPAPI/2.0]
+      x-ms-request-id: [a8adf4ee-1003-0031-7905-0694fc000000]
+      x-ms-version: ['2018-03-28']
+    status: {code: 201, message: Created}
+- request:
+    body: '<?xml version=''1.0'' encoding=''utf-8''?>
+
+      <QueueMessage><MessageText>{"EncryptedMessageContents": "ds6qdNfKoukPFLNIGkJg5A==",
+      "EncryptionData": {"WrappedContentKey": {"KeyId": "key1", "EncryptedKey": "gkfPB948U/A9CZpDX6WbvsqQJ6pCzJ4VXuxppeVc/+Qap6jxxwhR9g==",
+      "Algorithm": "A256KW"}, "EncryptionAgent": {"Protocol": "1.0", "EncryptionAlgorithm":
+      "AES_CBC_256"}, "ContentEncryptionIV": "PBpGtQQ/pZluK63PHEPFOw==", "KeyWrappingMetadata":
+      {"EncryptionLibrary": "Python 1.4.0"}}}</MessageText></QueueMessage>'
+    headers:
+      Connection: [keep-alive]
+      Content-Length: ['501']
+      User-Agent: [Azure-Storage/1.4.0-2.0.0 (Python CPython 3.7.0; Darwin 18.5.0)]
+      x-ms-client-request-id: [c90773ac-71f8-11e9-a804-acde48001122]
+      x-ms-date: ['Thu, 09 May 2019 01:21:35 GMT']
+      x-ms-version: ['2018-03-28']
+    method: POST
+    uri: https://storagename.queue.core.windows.net/encryptionqueued9c213ac/messages
+  response:
+    body: {string: "\uFEFF<?xml version=\"1.0\" encoding=\"utf-8\"?><QueueMessagesList><QueueMessage><MessageId>474eeedc-7554-4f08-b2da-51e81860be1e</MessageId><InsertionTime>Thu,\
+        \ 09 May 2019 01:21:34 GMT</InsertionTime><ExpirationTime>Thu, 16 May 2019\
+        \ 01:21:34 GMT</ExpirationTime><PopReceipt>AgAAAAMAAAAAAAAAGt7DigUG1QE=</PopReceipt><TimeNextVisible>Thu,\
+        \ 09 May 2019 01:21:34 GMT</TimeNextVisible></QueueMessage></QueueMessagesList>"}
+    headers:
+      Content-Type: [application/xml]
+      Date: ['Thu, 09 May 2019 01:21:34 GMT']
+      Server: [Windows-Azure-Queue/1.0 Microsoft-HTTPAPI/2.0]
+      Transfer-Encoding: [chunked]
+      x-ms-request-id: [a8adf4fc-1003-0031-0205-0694fc000000]
+      x-ms-version: ['2018-03-28']
+    status: {code: 201, message: Created}
+version: 1

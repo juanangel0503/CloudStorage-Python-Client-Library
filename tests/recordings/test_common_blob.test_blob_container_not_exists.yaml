@@ -1,0 +1,23 @@
+interactions:
+- request:
+    body: null
+    headers:
+      Connection: [keep-alive]
+      User-Agent: [Azure-Storage/1.4.0-2.0.0 (Python CPython 3.7.0; Darwin 18.5.0)]
+      x-ms-client-request-id: [28ffbc10-71f4-11e9-b134-acde48001122]
+      x-ms-date: ['Thu, 09 May 2019 00:48:28 GMT']
+      x-ms-version: ['2018-11-09']
+    method: HEAD
+    uri: https://storagename.blob.core.windows.net/containerce1c1364/blobce1c1364
+  response:
+    body: {string: ''}
+    headers:
+      Date: ['Thu, 09 May 2019 00:48:28 GMT']
+      Server: [Windows-Azure-Blob/1.0 Microsoft-HTTPAPI/2.0]
+      Transfer-Encoding: [chunked]
+      Vary: [Origin]
+      x-ms-error-code: [ContainerNotFound]
+      x-ms-request-id: [eaa3277a-a01e-0001-4600-06ced6000000]
+      x-ms-version: ['2018-11-09']
+    status: {code: 404, message: The specified container does not exist.}
+version: 1

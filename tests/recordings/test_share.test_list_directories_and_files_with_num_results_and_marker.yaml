@@ -1,0 +1,192 @@
+interactions:
+- request:
+    body: null
+    headers:
+      Connection: [keep-alive]
+      Content-Length: ['0']
+      User-Agent: [Azure-Storage/1.4.0-2.0.0 (Python CPython 3.7.0; Darwin 18.5.0)]
+      x-ms-client-request-id: [9c1f6c30-71fa-11e9-aabd-acde48001122]
+      x-ms-date: ['Thu, 09 May 2019 01:34:38 GMT']
+      x-ms-version: ['2018-11-09']
+    method: PUT
+    uri: https://storagename.file.core.windows.net/shareffa41cea?restype=share
+  response:
+    body: {string: ''}
+    headers:
+      Content-Length: ['0']
+      Date: ['Thu, 09 May 2019 01:34:38 GMT']
+      ETag: ['"0x8D6D41E808DAD57"']
+      Last-Modified: ['Thu, 09 May 2019 01:34:39 GMT']
+      Server: [Windows-Azure-File/1.0 Microsoft-HTTPAPI/2.0]
+      x-ms-request-id: [f1d39275-f01a-003b-3907-068d75000000]
+      x-ms-version: ['2018-11-09']
+    status: {code: 201, message: Created}
+- request:
+    body: null
+    headers:
+      Connection: [keep-alive]
+      Content-Length: ['0']
+      User-Agent: [Azure-Storage/1.4.0-2.0.0 (Python CPython 3.7.0; Darwin 18.5.0)]
+      x-ms-client-request-id: [9c7ce3e2-71fa-11e9-aabd-acde48001122]
+      x-ms-date: ['Thu, 09 May 2019 01:34:39 GMT']
+      x-ms-version: ['2018-11-09']
+    method: PUT
+    uri: https://storagename.file.core.windows.net/shareffa41cea/dir1?restype=directory
+  response:
+    body: {string: ''}
+    headers:
+      Content-Length: ['0']
+      Date: ['Thu, 09 May 2019 01:34:38 GMT']
+      ETag: ['"0x8D6D41E80B7F784"']
+      Last-Modified: ['Thu, 09 May 2019 01:34:39 GMT']
+      Server: [Windows-Azure-File/1.0 Microsoft-HTTPAPI/2.0]
+      x-ms-request-id: [f1d39279-f01a-003b-3a07-068d75000000]
+      x-ms-request-server-encrypted: ['true']
+      x-ms-version: ['2018-11-09']
+    status: {code: 201, message: Created}
+- request:
+    body: null
+    headers:
+      Connection: [keep-alive]
+      Content-Length: ['0']
+      User-Agent: [Azure-Storage/1.4.0-2.0.0 (Python CPython 3.7.0; Darwin 18.5.0)]
+      x-ms-client-request-id: [9c87fab6-71fa-11e9-aabd-acde48001122]
+      x-ms-content-length: ['1024']
+      x-ms-date: ['Thu, 09 May 2019 01:34:39 GMT']
+      x-ms-type: [file]
+      x-ms-version: ['2018-11-09']
+    method: PUT
+    uri: https://storagename.file.core.windows.net/shareffa41cea/dir1/filea1
+  response:
+    body: {string: ''}
+    headers:
+      Content-Length: ['0']
+      Date: ['Thu, 09 May 2019 01:34:39 GMT']
+      ETag: ['"0x8D6D41E80BDEC6F"']
+      Last-Modified: ['Thu, 09 May 2019 01:34:39 GMT']
+      Server: [Windows-Azure-File/1.0 Microsoft-HTTPAPI/2.0]
+      x-ms-request-id: [f1d3927a-f01a-003b-3b07-068d75000000]
+      x-ms-request-server-encrypted: ['true']
+      x-ms-version: ['2018-11-09']
+    status: {code: 201, message: Created}
+- request:
+    body: null
+    headers:
+      Connection: [keep-alive]
+      Content-Length: ['0']
+      User-Agent: [Azure-Storage/1.4.0-2.0.0 (Python CPython 3.7.0; Darwin 18.5.0)]
+      x-ms-client-request-id: [9c8df100-71fa-11e9-aabd-acde48001122]
+      x-ms-content-length: ['1024']
+      x-ms-date: ['Thu, 09 May 2019 01:34:39 GMT']
+      x-ms-type: [file]
+      x-ms-version: ['2018-11-09']
+    method: PUT
+    uri: https://storagename.file.core.windows.net/shareffa41cea/dir1/filea2
+  response:
+    body: {string: ''}
+    headers:
+      Content-Length: ['0']
+      Date: ['Thu, 09 May 2019 01:34:39 GMT']
+      ETag: ['"0x8D6D41E80C3E155"']
+      Last-Modified: ['Thu, 09 May 2019 01:34:39 GMT']
+      Server: [Windows-Azure-File/1.0 Microsoft-HTTPAPI/2.0]
+      x-ms-request-id: [f1d3927b-f01a-003b-3c07-068d75000000]
+      x-ms-request-server-encrypted: ['true']
+      x-ms-version: ['2018-11-09']
+    status: {code: 201, message: Created}
+- request:
+    body: null
+    headers:
+      Connection: [keep-alive]
+      Content-Length: ['0']
+      User-Agent: [Azure-Storage/1.4.0-2.0.0 (Python CPython 3.7.0; Darwin 18.5.0)]
+      x-ms-client-request-id: [9c939a9c-71fa-11e9-aabd-acde48001122]
+      x-ms-content-length: ['1024']
+      x-ms-date: ['Thu, 09 May 2019 01:34:39 GMT']
+      x-ms-type: [file]
+      x-ms-version: ['2018-11-09']
+    method: PUT
+    uri: https://storagename.file.core.windows.net/shareffa41cea/dir1/filea3
+  response:
+    body: {string: ''}
+    headers:
+      Content-Length: ['0']
+      Date: ['Thu, 09 May 2019 01:34:39 GMT']
+      ETag: ['"0x8D6D41E80C98809"']
+      Last-Modified: ['Thu, 09 May 2019 01:34:39 GMT']
+      Server: [Windows-Azure-File/1.0 Microsoft-HTTPAPI/2.0]
+      x-ms-request-id: [f1d3927c-f01a-003b-3d07-068d75000000]
+      x-ms-request-server-encrypted: ['true']
+      x-ms-version: ['2018-11-09']
+    status: {code: 201, message: Created}
+- request:
+    body: null
+    headers:
+      Connection: [keep-alive]
+      Content-Length: ['0']
+      User-Agent: [Azure-Storage/1.4.0-2.0.0 (Python CPython 3.7.0; Darwin 18.5.0)]
+      x-ms-client-request-id: [9c994140-71fa-11e9-aabd-acde48001122]
+      x-ms-content-length: ['1024']
+      x-ms-date: ['Thu, 09 May 2019 01:34:39 GMT']
+      x-ms-type: [file]
+      x-ms-version: ['2018-11-09']
+    method: PUT
+    uri: https://storagename.file.core.windows.net/shareffa41cea/dir1/fileb1
+  response:
+    body: {string: ''}
+    headers:
+      Content-Length: ['0']
+      Date: ['Thu, 09 May 2019 01:34:39 GMT']
+      ETag: ['"0x8D6D41E80CF55D6"']
+      Last-Modified: ['Thu, 09 May 2019 01:34:39 GMT']
+      Server: [Windows-Azure-File/1.0 Microsoft-HTTPAPI/2.0]
+      x-ms-request-id: [f1d3927d-f01a-003b-3e07-068d75000000]
+      x-ms-request-server-encrypted: ['true']
+      x-ms-version: ['2018-11-09']
+    status: {code: 201, message: Created}
+- request:
+    body: null
+    headers:
+      Connection: [keep-alive]
+      User-Agent: [Azure-Storage/1.4.0-2.0.0 (Python CPython 3.7.0; Darwin 18.5.0)]
+      x-ms-client-request-id: [9c9ee762-71fa-11e9-aabd-acde48001122]
+      x-ms-date: ['Thu, 09 May 2019 01:34:39 GMT']
+      x-ms-version: ['2018-11-09']
+    method: GET
+    uri: https://storagename.file.core.windows.net/shareffa41cea/dir1?restype=directory&comp=list&maxresults=2
+  response:
+    body: {string: "\uFEFF<?xml version=\"1.0\" encoding=\"utf-8\"?><EnumerationResults\
+        \ ServiceEndpoint=\"https://storagename.file.core.windows.net/\" ShareName=\"\
+        shareffa41cea\" DirectoryPath=\"dir1\"><MaxResults>2</MaxResults><Entries><File><Name>filea1</Name><Properties><Content-Length>1024</Content-Length></Properties></File><File><Name>filea2</Name><Properties><Content-Length>1024</Content-Length></Properties></File></Entries><NextMarker>1!8!ZmlsZWEz</NextMarker></EnumerationResults>"}
+    headers:
+      Content-Type: [application/xml]
+      Date: ['Thu, 09 May 2019 01:34:39 GMT']
+      Server: [Windows-Azure-File/1.0 Microsoft-HTTPAPI/2.0]
+      Transfer-Encoding: [chunked]
+      x-ms-request-id: [f1d3927e-f01a-003b-3f07-068d75000000]
+      x-ms-version: ['2018-11-09']
+    status: {code: 200, message: OK}
+- request:
+    body: null
+    headers:
+      Connection: [keep-alive]
+      User-Agent: [Azure-Storage/1.4.0-2.0.0 (Python CPython 3.7.0; Darwin 18.5.0)]
+      x-ms-client-request-id: [9ca4ec52-71fa-11e9-aabd-acde48001122]
+      x-ms-date: ['Thu, 09 May 2019 01:34:39 GMT']
+      x-ms-version: ['2018-11-09']
+    method: GET
+    uri: https://storagename.file.core.windows.net/shareffa41cea/dir1?restype=directory&comp=list&marker=1%218%21ZmlsZWEz&maxresults=2
+  response:
+    body: {string: "\uFEFF<?xml version=\"1.0\" encoding=\"utf-8\"?><EnumerationResults\
+        \ ServiceEndpoint=\"https://storagename.file.core.windows.net/\" ShareName=\"\
+        shareffa41cea\" DirectoryPath=\"dir1\"><Marker>1!8!ZmlsZWEz</Marker><MaxResults>2</MaxResults><Entries><File><Name>filea3</Name><Properties><Content-Length>1024</Content-Length></Properties></File><File><Name>fileb1</Name><Properties><Content-Length>1024</Content-Length></Properties></File></Entries><NextMarker\
+        \ /></EnumerationResults>"}
+    headers:
+      Content-Type: [application/xml]
+      Date: ['Thu, 09 May 2019 01:34:39 GMT']
+      Server: [Windows-Azure-File/1.0 Microsoft-HTTPAPI/2.0]
+      Transfer-Encoding: [chunked]
+      x-ms-request-id: [f1d3927f-f01a-003b-4007-068d75000000]
+      x-ms-version: ['2018-11-09']
+    status: {code: 200, message: OK}
+version: 1

@@ -1,0 +1,110 @@
+interactions:
+- request:
+    body: null
+    headers:
+      Connection: [keep-alive]
+      Content-Length: ['0']
+      User-Agent: [Azure-Storage/1.4.0-2.0.0 (Python CPython 3.7.0; Darwin 18.5.0)]
+      x-ms-blob-type: [AppendBlob]
+      x-ms-client-request-id: [0aad561a-71f3-11e9-b134-acde48001122]
+      x-ms-date: ['Thu, 09 May 2019 00:40:28 GMT']
+      x-ms-version: ['2018-11-09']
+    method: PUT
+    uri: https://storagename.blob.core.windows.net/utcontainerca1d1305/blobca1d1305
+  response:
+    body: {string: ''}
+    headers:
+      Content-Length: ['0']
+      Date: ['Thu, 09 May 2019 00:40:27 GMT']
+      ETag: ['"0x8D6D416EEEF3A58"']
+      Last-Modified: ['Thu, 09 May 2019 00:40:28 GMT']
+      Server: [Windows-Azure-Blob/1.0 Microsoft-HTTPAPI/2.0]
+      x-ms-request-id: [10b92b64-001e-002e-44ff-054fec000000]
+      x-ms-request-server-encrypted: ['true']
+      x-ms-version: ['2018-11-09']
+    status: {code: 201, message: Created}
+- request:
+    body: null
+    headers:
+      Connection: [keep-alive]
+      Content-Length: ['0']
+      User-Agent: [Azure-Storage/1.4.0-2.0.0 (Python CPython 3.7.0; Darwin 18.5.0)]
+      x-ms-client-request-id: [0ac3adde-71f3-11e9-b134-acde48001122]
+      x-ms-date: ['Thu, 09 May 2019 00:40:28 GMT']
+      x-ms-lease-action: [acquire]
+      x-ms-lease-duration: ['-1']
+      x-ms-version: ['2018-11-09']
+    method: PUT
+    uri: https://storagename.blob.core.windows.net/utcontainerca1d1305/blobca1d1305?comp=lease
+  response:
+    body: {string: ''}
+    headers:
+      Content-Length: ['0']
+      Date: ['Thu, 09 May 2019 00:40:27 GMT']
+      ETag: ['"0x8D6D416EEEF3A58"']
+      Last-Modified: ['Thu, 09 May 2019 00:40:28 GMT']
+      Server: [Windows-Azure-Blob/1.0 Microsoft-HTTPAPI/2.0]
+      x-ms-lease-id: [619ecdab-c05e-4577-ab53-c08246645ae0]
+      x-ms-request-id: [10b92b7d-001e-002e-5bff-054fec000000]
+      x-ms-version: ['2018-11-09']
+    status: {code: 201, message: Created}
+- request:
+    body: null
+    headers:
+      Connection: [keep-alive]
+      Content-Length: ['0']
+      User-Agent: [Azure-Storage/1.4.0-2.0.0 (Python CPython 3.7.0; Darwin 18.5.0)]
+      x-ms-blob-type: [AppendBlob]
+      x-ms-client-request-id: [0ac9018a-71f3-11e9-b134-acde48001122]
+      x-ms-date: ['Thu, 09 May 2019 00:40:28 GMT']
+      x-ms-lease-id: [619ecdab-c05e-4577-ab53-c08246645ae0]
+      x-ms-version: ['2018-11-09']
+    method: PUT
+    uri: https://storagename.blob.core.windows.net/utcontainerca1d1305/blobca1d1305
+  response:
+    body: {string: ''}
+    headers:
+      Content-Length: ['0']
+      Date: ['Thu, 09 May 2019 00:40:27 GMT']
+      ETag: ['"0x8D6D416EEFD478F"']
+      Last-Modified: ['Thu, 09 May 2019 00:40:28 GMT']
+      Server: [Windows-Azure-Blob/1.0 Microsoft-HTTPAPI/2.0]
+      x-ms-request-id: [10b92b87-001e-002e-64ff-054fec000000]
+      x-ms-request-server-encrypted: ['true']
+      x-ms-version: ['2018-11-09']
+    status: {code: 201, message: Created}
+- request:
+    body: null
+    headers:
+      Connection: [keep-alive]
+      User-Agent: [Azure-Storage/1.4.0-2.0.0 (Python CPython 3.7.0; Darwin 18.5.0)]
+      x-ms-client-request-id: [0ace9352-71f3-11e9-b134-acde48001122]
+      x-ms-date: ['Thu, 09 May 2019 00:40:28 GMT']
+      x-ms-version: ['2018-11-09']
+    method: HEAD
+    uri: https://storagename.blob.core.windows.net/utcontainerca1d1305/blobca1d1305
+  response:
+    body: {string: ''}
+    headers:
+      Accept-Ranges: [bytes]
+      Content-Length: ['0']
+      Content-Type: [application/octet-stream]
+      Date: ['Thu, 09 May 2019 00:40:27 GMT']
+      ETag: ['"0x8D6D416EEFD478F"']
+      Last-Modified: ['Thu, 09 May 2019 00:40:28 GMT']
+      Server: [Windows-Azure-Blob/1.0 Microsoft-HTTPAPI/2.0]
+      Vary: [Origin]
+      x-ms-access-tier: [Hot]
+      x-ms-access-tier-inferred: ['true']
+      x-ms-blob-committed-block-count: ['0']
+      x-ms-blob-type: [AppendBlob]
+      x-ms-creation-time: ['Thu, 09 May 2019 00:40:28 GMT']
+      x-ms-lease-duration: [infinite]
+      x-ms-lease-state: [leased]
+      x-ms-lease-status: [locked]
+      x-ms-request-id: [10b92b9b-001e-002e-74ff-054fec000000]
+      x-ms-server-encrypted: ['true']
+      x-ms-tag-count: ['0']
+      x-ms-version: ['2018-11-09']
+    status: {code: 200, message: OK}
+version: 1

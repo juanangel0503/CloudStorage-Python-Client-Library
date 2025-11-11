@@ -1,0 +1,47 @@
+interactions:
+- request:
+    body: null
+    headers:
+      Connection: [keep-alive]
+      Content-Length: ['0']
+      User-Agent: [Azure-Storage/1.4.0-2.0.0 (Python CPython 3.7.0; Darwin 18.5.0)]
+      x-ms-client-request-id: [a35cae36-71fa-11e9-aabd-acde48001122]
+      x-ms-date: ['Thu, 09 May 2019 01:34:50 GMT']
+      x-ms-version: ['2018-11-09']
+    method: PUT
+    uri: https://storagename.file.core.windows.net/share62ad1111?restype=share
+  response:
+    body: {string: ''}
+    headers:
+      Content-Length: ['0']
+      Date: ['Thu, 09 May 2019 01:34:50 GMT']
+      ETag: ['"0x8D6D41E87A0D529"']
+      Last-Modified: ['Thu, 09 May 2019 01:34:50 GMT']
+      Server: [Windows-Azure-File/1.0 Microsoft-HTTPAPI/2.0]
+      x-ms-request-id: [4756c713-901a-0002-6407-06cdd1000000]
+      x-ms-version: ['2018-11-09']
+    status: {code: 201, message: Created}
+- request:
+    body: null
+    headers:
+      Connection: [keep-alive]
+      User-Agent: [Azure-Storage/1.4.0-2.0.0 (Python CPython 3.7.0; Darwin 18.5.0)]
+      x-ms-client-request-id: [a3707ac4-71fa-11e9-aabd-acde48001122]
+      x-ms-date: ['Thu, 09 May 2019 01:34:50 GMT']
+      x-ms-version: ['2018-11-09']
+    method: GET
+    uri: https://storagename.file.core.windows.net/share62ad1111?restype=share&sharesnapshot=2017-07-19T06%3A53%3A46.0000000Z
+  response:
+    body: {string: "\uFEFF<?xml version=\"1.0\" encoding=\"utf-8\"?><Error><Code>ShareNotFound</Code><Message>The\
+        \ specified share does not exist.\nRequestId:4756c716-901a-0002-6507-06cdd1000000\n\
+        Time:2019-05-09T01:34:50.9506169Z</Message></Error>"}
+    headers:
+      Content-Length: ['217']
+      Content-Type: [application/xml]
+      Date: ['Thu, 09 May 2019 01:34:50 GMT']
+      Server: [Windows-Azure-File/1.0 Microsoft-HTTPAPI/2.0]
+      x-ms-error-code: [ShareNotFound]
+      x-ms-request-id: [4756c716-901a-0002-6507-06cdd1000000]
+      x-ms-version: ['2018-11-09']
+    status: {code: 404, message: The specified share does not exist.}
+version: 1

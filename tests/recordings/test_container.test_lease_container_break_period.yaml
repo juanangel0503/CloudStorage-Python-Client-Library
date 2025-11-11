@@ -1,0 +1,100 @@
+interactions:
+- request:
+    body: null
+    headers:
+      Connection: [keep-alive]
+      Content-Length: ['0']
+      User-Agent: [Azure-Storage/1.4.0-2.0.0 (Python CPython 3.7.0; Darwin 18.5.0)]
+      x-ms-client-request-id: [563aef64-71f5-11e9-b134-acde48001122]
+      x-ms-date: ['Thu, 09 May 2019 00:56:53 GMT']
+      x-ms-version: ['2018-11-09']
+    method: PUT
+    uri: https://storagename.blob.core.windows.net/containere23113a2?restype=container
+  response:
+    body: {string: ''}
+    headers:
+      Content-Length: ['0']
+      Date: ['Thu, 09 May 2019 00:56:53 GMT']
+      ETag: ['"0x8D6D4193A7F45B7"']
+      Last-Modified: ['Thu, 09 May 2019 00:56:54 GMT']
+      Server: [Windows-Azure-Blob/1.0 Microsoft-HTTPAPI/2.0]
+      x-ms-request-id: [42d2c250-601e-0058-5902-06cb50000000]
+      x-ms-version: ['2018-11-09']
+    status: {code: 201, message: Created}
+- request:
+    body: null
+    headers:
+      Connection: [keep-alive]
+      Content-Length: ['0']
+      User-Agent: [Azure-Storage/1.4.0-2.0.0 (Python CPython 3.7.0; Darwin 18.5.0)]
+      x-ms-client-request-id: [564e2fac-71f5-11e9-b134-acde48001122]
+      x-ms-date: ['Thu, 09 May 2019 00:56:54 GMT']
+      x-ms-lease-action: [acquire]
+      x-ms-lease-duration: ['15']
+      x-ms-version: ['2018-11-09']
+    method: PUT
+    uri: https://storagename.blob.core.windows.net/containere23113a2?restype=container&comp=lease
+  response:
+    body: {string: ''}
+    headers:
+      Content-Length: ['0']
+      Date: ['Thu, 09 May 2019 00:56:53 GMT']
+      ETag: ['"0x8D6D4193A7F45B7"']
+      Last-Modified: ['Thu, 09 May 2019 00:56:54 GMT']
+      Server: [Windows-Azure-Blob/1.0 Microsoft-HTTPAPI/2.0]
+      x-ms-lease-id: [4afe9da9-b3ae-413b-9889-40f8a215a806]
+      x-ms-request-id: [42d2c26e-601e-0058-7102-06cb50000000]
+      x-ms-version: ['2018-11-09']
+    status: {code: 201, message: Created}
+- request:
+    body: null
+    headers:
+      Connection: [keep-alive]
+      Content-Length: ['0']
+      User-Agent: [Azure-Storage/1.4.0-2.0.0 (Python CPython 3.7.0; Darwin 18.5.0)]
+      x-ms-client-request-id: [5653569e-71f5-11e9-b134-acde48001122]
+      x-ms-date: ['Thu, 09 May 2019 00:56:54 GMT']
+      x-ms-lease-action: [break]
+      x-ms-lease-break-period: ['5']
+      x-ms-version: ['2018-11-09']
+    method: PUT
+    uri: https://storagename.blob.core.windows.net/containere23113a2?restype=container&comp=lease
+  response:
+    body: {string: ''}
+    headers:
+      Content-Length: ['0']
+      Date: ['Thu, 09 May 2019 00:56:53 GMT']
+      ETag: ['"0x8D6D4193A7F45B7"']
+      Last-Modified: ['Thu, 09 May 2019 00:56:54 GMT']
+      Server: [Windows-Azure-Blob/1.0 Microsoft-HTTPAPI/2.0]
+      x-ms-lease-time: ['5']
+      x-ms-request-id: [42d2c281-601e-0058-0402-06cb50000000]
+      x-ms-version: ['2018-11-09']
+    status: {code: 202, message: Accepted}
+- request:
+    body: null
+    headers:
+      Connection: [keep-alive]
+      Content-Length: ['0']
+      User-Agent: [Azure-Storage/1.4.0-2.0.0 (Python CPython 3.7.0; Darwin 18.5.0)]
+      x-ms-client-request-id: [59efe4ca-71f5-11e9-b134-acde48001122]
+      x-ms-date: ['Thu, 09 May 2019 00:57:00 GMT']
+      x-ms-lease-id: [4afe9da9-b3ae-413b-9889-40f8a215a806]
+      x-ms-version: ['2018-11-09']
+    method: DELETE
+    uri: https://storagename.blob.core.windows.net/containere23113a2?restype=container
+  response:
+    body: {string: "\uFEFF<?xml version=\"1.0\" encoding=\"utf-8\"?><Error><Code>LeaseLost</Code><Message>A\
+        \ lease ID was specified, but the lease for the container has expired.\nRequestId:42d2d1ee-601e-0058-0e02-06cb50000000\n\
+        Time:2019-05-09T00:57:00.1503043Z</Message></Error>"}
+    headers:
+      Content-Length: ['248']
+      Content-Type: [application/xml]
+      Date: ['Thu, 09 May 2019 00:56:59 GMT']
+      Server: [Windows-Azure-Blob/1.0 Microsoft-HTTPAPI/2.0]
+      x-ms-error-code: [LeaseLost]
+      x-ms-request-id: [42d2d1ee-601e-0058-0e02-06cb50000000]
+      x-ms-version: ['2018-11-09']
+    status: {code: 412, message: 'A lease ID was specified, but the lease for the
+        container has expired.'}
+version: 1

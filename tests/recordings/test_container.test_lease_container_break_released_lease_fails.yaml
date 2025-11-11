@@ -1,0 +1,98 @@
+interactions:
+- request:
+    body: null
+    headers:
+      Connection: [keep-alive]
+      Content-Length: ['0']
+      User-Agent: [Azure-Storage/1.4.0-2.0.0 (Python CPython 3.7.0; Darwin 18.5.0)]
+      x-ms-client-request-id: [5a0a0d46-71f5-11e9-b134-acde48001122]
+      x-ms-date: ['Thu, 09 May 2019 00:57:00 GMT']
+      x-ms-version: ['2018-11-09']
+    method: PUT
+    uri: https://storagename.blob.core.windows.net/container1e4e193b?restype=container
+  response:
+    body: {string: ''}
+    headers:
+      Content-Length: ['0']
+      Date: ['Thu, 09 May 2019 00:57:00 GMT']
+      ETag: ['"0x8D6D4193E84EB7B"']
+      Last-Modified: ['Thu, 09 May 2019 00:57:00 GMT']
+      Server: [Windows-Azure-Blob/1.0 Microsoft-HTTPAPI/2.0]
+      x-ms-request-id: [d508e1a6-d01e-0005-4e02-063b54000000]
+      x-ms-version: ['2018-11-09']
+    status: {code: 201, message: Created}
+- request:
+    body: null
+    headers:
+      Connection: [keep-alive]
+      Content-Length: ['0']
+      User-Agent: [Azure-Storage/1.4.0-2.0.0 (Python CPython 3.7.0; Darwin 18.5.0)]
+      x-ms-client-request-id: [5a5551de-71f5-11e9-b134-acde48001122]
+      x-ms-date: ['Thu, 09 May 2019 00:57:00 GMT']
+      x-ms-lease-action: [acquire]
+      x-ms-lease-duration: ['-1']
+      x-ms-version: ['2018-11-09']
+    method: PUT
+    uri: https://storagename.blob.core.windows.net/container1e4e193b?restype=container&comp=lease
+  response:
+    body: {string: ''}
+    headers:
+      Content-Length: ['0']
+      Date: ['Thu, 09 May 2019 00:57:00 GMT']
+      ETag: ['"0x8D6D4193E84EB7B"']
+      Last-Modified: ['Thu, 09 May 2019 00:57:00 GMT']
+      Server: [Windows-Azure-Blob/1.0 Microsoft-HTTPAPI/2.0]
+      x-ms-lease-id: [9de9d0b5-e879-458f-97ad-f404421d566c]
+      x-ms-request-id: [d508e1dc-d01e-0005-7b02-063b54000000]
+      x-ms-version: ['2018-11-09']
+    status: {code: 201, message: Created}
+- request:
+    body: null
+    headers:
+      Connection: [keep-alive]
+      Content-Length: ['0']
+      User-Agent: [Azure-Storage/1.4.0-2.0.0 (Python CPython 3.7.0; Darwin 18.5.0)]
+      x-ms-client-request-id: [5a5b4e04-71f5-11e9-b134-acde48001122]
+      x-ms-date: ['Thu, 09 May 2019 00:57:00 GMT']
+      x-ms-lease-action: [release]
+      x-ms-lease-id: [9de9d0b5-e879-458f-97ad-f404421d566c]
+      x-ms-version: ['2018-11-09']
+    method: PUT
+    uri: https://storagename.blob.core.windows.net/container1e4e193b?restype=container&comp=lease
+  response:
+    body: {string: ''}
+    headers:
+      Content-Length: ['0']
+      Date: ['Thu, 09 May 2019 00:57:00 GMT']
+      ETag: ['"0x8D6D4193E84EB7B"']
+      Last-Modified: ['Thu, 09 May 2019 00:57:00 GMT']
+      Server: [Windows-Azure-Blob/1.0 Microsoft-HTTPAPI/2.0]
+      x-ms-request-id: [d508e20f-d01e-0005-2902-063b54000000]
+      x-ms-version: ['2018-11-09']
+    status: {code: 200, message: OK}
+- request:
+    body: null
+    headers:
+      Connection: [keep-alive]
+      Content-Length: ['0']
+      User-Agent: [Azure-Storage/1.4.0-2.0.0 (Python CPython 3.7.0; Darwin 18.5.0)]
+      x-ms-client-request-id: [5a60f46c-71f5-11e9-b134-acde48001122]
+      x-ms-date: ['Thu, 09 May 2019 00:57:00 GMT']
+      x-ms-lease-action: [break]
+      x-ms-version: ['2018-11-09']
+    method: PUT
+    uri: https://storagename.blob.core.windows.net/container1e4e193b?restype=container&comp=lease
+  response:
+    body: {string: "\uFEFF<?xml version=\"1.0\" encoding=\"utf-8\"?><Error><Code>LeaseNotPresentWithLeaseOperation</Code><Message>There\
+        \ is currently no lease on the container.\nRequestId:d508e246-d01e-0005-5e02-063b54000000\n\
+        Time:2019-05-09T00:57:00.9805246Z</Message></Error>"}
+    headers:
+      Content-Length: ['247']
+      Content-Type: [application/xml]
+      Date: ['Thu, 09 May 2019 00:57:00 GMT']
+      Server: [Windows-Azure-Blob/1.0 Microsoft-HTTPAPI/2.0]
+      x-ms-error-code: [LeaseNotPresentWithLeaseOperation]
+      x-ms-request-id: [d508e246-d01e-0005-5e02-063b54000000]
+      x-ms-version: ['2018-11-09']
+    status: {code: 409, message: There is currently no lease on the container.}
+version: 1

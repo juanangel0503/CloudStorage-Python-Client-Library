@@ -1,0 +1,29 @@
+interactions:
+- request:
+    body: '<?xml version=''1.0'' encoding=''utf-8''?>
+
+      <StorageServiceProperties><MinuteMetrics><Version>1.0</Version><Enabled>True</Enabled><IncludeAPIs>True</IncludeAPIs><RetentionPolicy><Enabled>True</Enabled><Days>366</Days></RetentionPolicy></MinuteMetrics></StorageServiceProperties>'
+    headers:
+      Connection: [keep-alive]
+      Content-Length: ['273']
+      User-Agent: [Azure-Storage/1.4.0-2.0.0 (Python CPython 3.7.0; Darwin 18.5.0)]
+      x-ms-client-request-id: [ae815fec-71f9-11e9-be36-acde48001122]
+      x-ms-date: ['Thu, 09 May 2019 01:28:00 GMT']
+      x-ms-version: ['2018-11-09']
+    method: PUT
+    uri: https://storagename.blob.core.windows.net/?restype=service&comp=properties
+  response:
+    body: {string: "\uFEFF<?xml version=\"1.0\" encoding=\"utf-8\"?><Error><Code>InvalidXmlDocument</Code><Message>XML\
+        \ specified is not syntactically valid.\nRequestId:71444717-501e-0036-1d06-066279000000\n\
+        Time:2019-05-09T01:28:00.1366982Z</Message><LineNumber>2</LineNumber><LinePosition>176</LinePosition><Reason>Retention\
+        \ days must be greater than 0 and less than or equal to 365 days.</Reason></Error>"}
+    headers:
+      Content-Length: ['376']
+      Content-Type: [application/xml]
+      Date: ['Thu, 09 May 2019 01:27:59 GMT']
+      Server: [Windows-Azure-Blob/1.0 Microsoft-HTTPAPI/2.0]
+      x-ms-error-code: [InvalidXmlDocument]
+      x-ms-request-id: [71444717-501e-0036-1d06-066279000000]
+      x-ms-version: ['2018-11-09']
+    status: {code: 400, message: XML specified is not syntactically valid.}
+version: 1

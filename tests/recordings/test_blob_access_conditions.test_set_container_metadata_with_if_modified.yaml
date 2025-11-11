@@ -1,0 +1,73 @@
+interactions:
+- request:
+    body: null
+    headers:
+      Connection: [keep-alive]
+      Content-Length: ['0']
+      User-Agent: [Azure-Storage/1.4.0-2.0.0 (Python CPython 3.7.0; Darwin 18.5.0)]
+      x-ms-client-request-id: [65f09e24-71f3-11e9-b134-acde48001122]
+      x-ms-date: ['Thu, 09 May 2019 00:43:01 GMT']
+      x-ms-version: ['2018-11-09']
+    method: PUT
+    uri: https://storagename.blob.core.windows.net/utcontainer349b1d6d?restype=container
+  response:
+    body: {string: ''}
+    headers:
+      Content-Length: ['0']
+      Date: ['Thu, 09 May 2019 00:43:00 GMT']
+      ETag: ['"0x8D6D4174A31AF7B"']
+      Last-Modified: ['Thu, 09 May 2019 00:43:01 GMT']
+      Server: [Windows-Azure-Blob/1.0 Microsoft-HTTPAPI/2.0]
+      x-ms-request-id: [778cdca0-001e-0043-3200-06e5c2000000]
+      x-ms-version: ['2018-11-09']
+    status: {code: 201, message: Created}
+- request:
+    body: null
+    headers:
+      Connection: [keep-alive]
+      Content-Length: ['0']
+      If-Modified-Since: ['Thu, 09 May 2019 00:28:01 GMT']
+      User-Agent: [Azure-Storage/1.4.0-2.0.0 (Python CPython 3.7.0; Darwin 18.5.0)]
+      x-ms-client-request-id: [660a85b4-71f3-11e9-b134-acde48001122]
+      x-ms-date: ['Thu, 09 May 2019 00:43:01 GMT']
+      x-ms-meta-hello: [world]
+      x-ms-meta-number: ['43']
+      x-ms-version: ['2018-11-09']
+    method: PUT
+    uri: https://storagename.blob.core.windows.net/utcontainer349b1d6d?restype=container&comp=metadata
+  response:
+    body: {string: ''}
+    headers:
+      Content-Length: ['0']
+      Date: ['Thu, 09 May 2019 00:43:00 GMT']
+      ETag: ['"0x8D6D4174A3E843C"']
+      Last-Modified: ['Thu, 09 May 2019 00:43:01 GMT']
+      Server: [Windows-Azure-Blob/1.0 Microsoft-HTTPAPI/2.0]
+      x-ms-request-id: [778cdcd2-001e-0043-5a00-06e5c2000000]
+      x-ms-version: ['2018-11-09']
+    status: {code: 200, message: OK}
+- request:
+    body: null
+    headers:
+      Connection: [keep-alive]
+      User-Agent: [Azure-Storage/1.4.0-2.0.0 (Python CPython 3.7.0; Darwin 18.5.0)]
+      x-ms-client-request-id: [6610b970-71f3-11e9-b134-acde48001122]
+      x-ms-date: ['Thu, 09 May 2019 00:43:01 GMT']
+      x-ms-version: ['2018-11-09']
+    method: GET
+    uri: https://storagename.blob.core.windows.net/utcontainer349b1d6d?restype=container&comp=metadata
+  response:
+    body: {string: ''}
+    headers:
+      Content-Length: ['0']
+      Date: ['Thu, 09 May 2019 00:43:00 GMT']
+      ETag: ['"0x8D6D4174A3E843C"']
+      Last-Modified: ['Thu, 09 May 2019 00:43:01 GMT']
+      Server: [Windows-Azure-Blob/1.0 Microsoft-HTTPAPI/2.0]
+      Vary: [Origin]
+      x-ms-meta-hello: [world]
+      x-ms-meta-number: ['43']
+      x-ms-request-id: [778cdce2-001e-0043-6a00-06e5c2000000]
+      x-ms-version: ['2018-11-09']
+    status: {code: 200, message: OK}
+version: 1

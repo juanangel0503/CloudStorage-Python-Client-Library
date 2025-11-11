@@ -1,0 +1,30 @@
+{
+	"storage-common": {
+		"service_name": "Storage",
+		"category ": "Client",
+		"namespaces": [
+			"azure.storage.common"
+		]
+	},
+	"storage-blob": {
+		"service_name": "Storage",
+		"category ": "Client",
+		"namespaces": [
+			"azure.storage.blob"
+		]
+	},
+	"storage-file": {
+		"service_name": "Storage",
+		"category ": "Client",
+		"namespaces": [
+			"azure.storage.file"
+		]
+	},
+	"storage-queue": {
+		"service_name": "Storage",
+		"category ": "Client",
+		"namespaces": [
+			"azure.storage.queue"
+		]
+	}
+}
